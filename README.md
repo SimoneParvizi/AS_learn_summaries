@@ -1,5 +1,5 @@
 # Medical Document Analysis and Summary Generation System
-## Problem number 1: Learn-from-feedback
+## Learn-from-feedback
 
 This repository contains a Python script for analyzing medical summary documents and generating concise summaries using OpenAI's GPT-4 model. The script first extracts text from `.docx` files, performs a comparative analysis to identify template updates, and then generates a summary template. The identified pattern together with the updated sections, are then used to create a summarized version of a given medical transcript using the template.
 In this way, new sections are taken into consideration, and there's no need to constantly update manually each time.
